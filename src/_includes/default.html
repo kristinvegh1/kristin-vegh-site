@@ -17,10 +17,11 @@
     {% endif %}
   </head>
   <body>
+      <div class="space-y-6">
     {% include "./partials/navbar.html" %}
 
     {{ content | safe }}
-
+      </div>
     {% include "./partials/footer.html" %}
 
     <script src="/static/js/alpine.js"></script>
